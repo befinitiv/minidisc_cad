@@ -1,0 +1,203 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "521fcede-69d7-4f6d-a594-609fca379ec3")
+	(paper "A4")
+	(lib_symbols)
+	(sheet
+		(at 127 85.09)
+		(size 36.83 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0047e17d-33b3-4049-9b95-9a904173d4c1")
+		(property "Sheetname" "cpu"
+			(at 127 84.3784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cpu.kicad_sch"
+			(at 127 117.4246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minidisc"
+				(path "/521fcede-69d7-4f6d-a594-609fca379ec3"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 52.07 53.34)
+		(size 26.67 26.67)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6d45da5a-e3df-4340-9ada-2fb395fc4517")
+		(property "Sheetname" "Power"
+			(at 52.07 52.6284 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "power.kicad_sch"
+			(at 52.07 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minidisc"
+				(path "/521fcede-69d7-4f6d-a594-609fca379ec3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 25.4 148.59)
+		(size 27.94 31.75)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "93b31dc8-efce-45a3-83f8-59a8e0899de6")
+		(property "Sheetname" "buttons"
+			(at 25.4 147.8784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "buttons.kicad_sch"
+			(at 25.4 180.9246 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minidisc"
+				(path "/521fcede-69d7-4f6d-a594-609fca379ec3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 62.23 114.3)
+		(size 27.94 30.48)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "97e92068-8fa4-4c4f-8472-eaf36db290f4")
+		(property "Sheetname" "connectors"
+			(at 62.23 113.5884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "connectors.kicad_sch"
+			(at 62.23 145.3646 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minidisc"
+				(path "/521fcede-69d7-4f6d-a594-609fca379ec3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 196.85 50.8)
+		(size 30.48 22.86)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "d47a8b1f-459b-46d9-840f-7e6067dc913f")
+		(property "Sheetname" "sata"
+			(at 196.85 50.0884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sata.kicad_sch"
+			(at 196.85 74.2446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "minidisc"
+				(path "/521fcede-69d7-4f6d-a594-609fca379ec3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)

@@ -1,0 +1,170 @@
+(footprint "ipodbattery"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "b39c3ca0-d44a-4e31-9731-0aff09ba1d45")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "ipodbattery"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2da4ad61-0faa-446a-9190-7e0cfb03983e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "01568028-b9dc-4823-8d7e-9c9d9401bd73")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "44fcc3e8-7040-43b0-9b63-ef76f81dde58")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "075ba062-e03c-48d1-9f40-44187a7782d6")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -6 -3.5)
+		(end 6 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "77dc40cb-a774-432a-9c8d-a653854777a7")
+	)
+	(fp_line
+		(start -6 7.5)
+		(end -6 -3.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "528939c6-c280-4a21-9117-a0d0fd24c1bf")
+	)
+	(fp_line
+		(start 6 -3.5)
+		(end 6 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "aa7d85ec-5f8d-474f-8fcf-8ed94a99bfcb")
+	)
+	(fp_line
+		(start 6 4)
+		(end 13 4)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "913c065f-ad34-4d41-9bbb-ee6b9e4c842d")
+	)
+	(fp_line
+		(start 6 7.5)
+		(end -6 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "cc061579-91e6-41d9-a68a-31bb6a5b16ae")
+	)
+	(fp_line
+		(start 13 4)
+		(end 13 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "ee5cd4f3-0b25-41d6-b1de-2e0c5ed50c49")
+	)
+	(fp_line
+		(start 13 7.5)
+		(end 6 7.5)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "9a674d01-0cbc-4a9b-97e9-41a12341cf80")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.5 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "43ec39ef-a0e4-4088-84d7-e65c5c210117")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -2.5 0 180)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "41e9d90c-3bcf-4742-8cd1-c5ebfe503bea")
+	)
+	(pad "2" smd rect
+		(at 0 0 180)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6a292bc2-f184-4a1d-afc2-ce359a232c79")
+	)
+	(pad "3" smd rect
+		(at 2.5 0 180)
+		(size 1 2)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "6ae7500a-a566-4995-bf33-ababd0bd0993")
+	)
+)

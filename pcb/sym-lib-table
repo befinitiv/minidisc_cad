@@ -1,0 +1,6 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "vl715")(type "KiCad")(uri "${KIPRJMOD}/vl715.kicad_sym")(options "")(descr ""))
+  (lib (name "lcsc")(type "KiCad")(uri "${KIPRJMOD}/lcsc.kicad_sym")(options "")(descr ""))
+  (lib (name "W096016-XBLW")(type "KiCad")(uri "${KIPRJMOD}/W096016-XBLW.kicad_sym")(options "")(descr ""))
+)
