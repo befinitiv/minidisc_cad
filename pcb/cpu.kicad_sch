@@ -3740,6 +3740,28 @@
 		)
 		(uuid "fe3f8a5f-7e44-4cea-b52f-735623879ddc")
 	)
+	(global_label "HPCOM"
+		(shape input)
+		(at 203.2 127 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "0781cc66-de35-43f2-83a0-fdd97ed90ea3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 212.8376 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "BTSTOP"
 		(shape input)
 		(at 80.01 66.04 180)
@@ -5015,73 +5037,6 @@
 			(project "minidisc"
 				(path "/521fcede-69d7-4f6d-a594-609fca379ec3/0047e17d-33b3-4049-9b95-9a904173d4c1"
 					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 203.2 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6cc1dcb6-71ee-4685-ad62-d18d612dbb46")
-		(property "Reference" "#PWR01"
-			(at 209.55 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 207.01 127.6349 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 203.2 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5c6315bc-8d72-4452-a04b-b38ee16f722d")
-		)
-		(instances
-			(project "minidisc"
-				(path "/521fcede-69d7-4f6d-a594-609fca379ec3/0047e17d-33b3-4049-9b95-9a904173d4c1"
-					(reference "#PWR01")
 					(unit 1)
 				)
 			)

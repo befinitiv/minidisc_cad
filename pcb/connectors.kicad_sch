@@ -4743,6 +4743,16 @@
 	)
 	(wire
 		(pts
+			(xy 31.75 90.17) (xy 49.53 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6c623e95-c6eb-486b-93c4-2c4e1ea2e949")
+	)
+	(wire
+		(pts
 			(xy 39.37 33.02) (xy 34.29 33.02)
 		)
 		(stroke
@@ -5010,16 +5020,6 @@
 			(type default)
 		)
 		(uuid "92adc1ec-8290-4f5f-86f2-481a5c302944")
-	)
-	(wire
-		(pts
-			(xy 31.75 90.17) (xy 49.53 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "93f0e30d-f120-4421-bbe6-836b5ab273eb")
 	)
 	(wire
 		(pts
@@ -5753,16 +5753,6 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 90.17) (xy 49.53 92.71)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "eb6c598c-cd73-4126-a206-1c00d84876ea")
-	)
-	(wire
-		(pts
 			(xy 208.28 44.45) (xy 219.71 44.45)
 		)
 		(stroke
@@ -6384,6 +6374,28 @@
 			)
 		)
 	)
+	(global_label "HPCOM"
+		(shape input)
+		(at 49.53 90.17 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6f5bcdcd-c46f-4eb0-b4d5-7cdd418665b7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 59.1676 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "SPI1_CS"
 		(shape input)
 		(at 153.67 118.11 180)
@@ -6667,72 +6679,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 49.53 92.71 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "071680ef-c226-4f04-8580-41ceeaa5ac50")
-		(property "Reference" "#PWR056"
-			(at 55.88 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 53.34 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 49.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 49.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 49.53 92.71 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90570039-1cdd-41d0-a7aa-1b0ec39a012c")
-		)
-		(instances
-			(project "minidisc"
-				(path "/521fcede-69d7-4f6d-a594-609fca379ec3/97e92068-8fa4-4c4f-8472-eaf36db290f4"
-					(reference "#PWR056")
-					(unit 1)
-				)
 			)
 		)
 	)
